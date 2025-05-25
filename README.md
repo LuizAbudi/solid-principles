@@ -1,4 +1,4 @@
-# Princípios de Design — Exemplo com TypeScript
+# SOLID — Exemplo com TypeScript
 
 Este projeto apresenta 4 princípios de design de software com exemplos em TypeScript. Cada princípio é explicado com um código simples, comentado e organizado por pasta.
 
