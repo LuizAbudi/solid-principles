@@ -1,0 +1,17 @@
+{
+  "name": "solid-principles",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test:srp": "ts-node src/srp/estimation-service.ts",
+    "test:ocp": "ts-node src/ocp/report-export.ts",
+    "test:dip": "ts-node src/dip/task-service.ts",
+    "test:composition": "ts-node src/composition/project-feature.ts",
+    "test:all": "npm run test:srp && npm run test:ocp && npm run test:dip && npm run test:composition"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
